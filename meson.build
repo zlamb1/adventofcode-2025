@@ -66,3 +66,13 @@ executable(
     'day6_p2',
     files('day6/p2.cpp'),
 )
+
+executable(
+    'day7_p1',
+    files('day7/p1.cpp'),
+)
+
+executable(
+    'day7_p2',
+    files('day7/p2.cpp'),
+)
