@@ -23,7 +23,7 @@ int main(void) {
   std::vector<Column> columns;
 
   bool set_width = true;
-  std::size_t width;
+  std::size_t width = 0;
 
   while (std::getline(f, line)) {
     if (set_width)
